@@ -1,0 +1,7 @@
+﻿--T-SQL Geçici Tablolar - Bir Tabloyu # İfadesi İle Belleğe Geçici Olarak Kopyalama
+USE Northwind
+
+--BIR TABLOYU FIZIKSEL OLARAK KOPYALAMA
+--BU SEKILDE BIR KULLANIMDA CONSTRAINTLER KOPYALANMAZLAR.
+SELECT * INTO GECICIPERSONELLER FROM Personeller
+

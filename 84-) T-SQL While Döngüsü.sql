@@ -1,0 +1,10 @@
+--T-SQL While Döngüsü
+USE Northwind
+
+DECLARE @SAYAC INT = 0
+
+WHILE @SAYAC <= 100
+BEGIN 
+	PRINT @SAYAC
+	SET @SAYAC = @SAYAC + 1
+END

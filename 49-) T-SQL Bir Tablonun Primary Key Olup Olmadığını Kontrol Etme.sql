@@ -1,0 +1,4 @@
+﻿--T-SQL Bir Tablonun Primary Key Olup Olmadığını Kontrol Etme
+
+--SORGU 1 DONDUYORSA ILGILI TABLO PRIMARY KEY ICERIR ANLAMINA GELIR
+SELECT OBJECTPROPERTY(OBJECT_ID('Personeller'),'TableHasPrimaryKey')

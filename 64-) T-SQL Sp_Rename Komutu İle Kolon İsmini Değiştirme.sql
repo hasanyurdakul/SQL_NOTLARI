@@ -1,0 +1,8 @@
+﻿--T-SQL Sp_Rename Komutu İle Kolon İsmini Değiştirme
+
+USE ORNEKVERITABANI
+
+--PROTOTIP
+--SP_RENAME '[OLD]','[NEW]','[TIP]'
+
+SP_RENAME 'ORNEKTABLOYENI.KOLON1','KOLON1YENI','COLUMN'

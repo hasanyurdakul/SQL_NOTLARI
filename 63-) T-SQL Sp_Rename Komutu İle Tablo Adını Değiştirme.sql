@@ -1,0 +1,7 @@
+﻿--T-SQL Sp_Rename Komutu İle Tablo Adını Değiştirme
+
+USE ORNEKVERITABANI
+--PROTOTIP
+--SP_RENAME '[OLD]','[NEW]'
+
+SP_RENAME 'ORNEKTABLO', 'ORNEKTABLOYENI'

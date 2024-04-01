@@ -1,0 +1,15 @@
+--T-SQL Continue Komutu
+USE Northwind
+
+DECLARE @SAYAC INT = 0
+
+WHILE @SAYAC <= 1000
+BEGIN 
+	IF @SAYAC % 5 = 0
+	BEGIN 
+		SET @SAYAC = @SAYAC + 1
+		CONTINUE
+	END
+	PRINT @SAYAC
+	SET @SAYAC = @SAYAC + 1
+END
