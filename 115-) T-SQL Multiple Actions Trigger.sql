@@ -1,0 +1,12 @@
+--T-SQL Multiple Actions Trigger
+
+
+CREATE TRIGGER MULTITRIGGER
+ON Personeller
+AFTER DELETE, INSERT
+AS
+PRINT 'MERHABA'
+
+
+INSERT Personeller(Adi) VALUES('HASAN')
+DELETE FROM Personeller WHERE Adi = 'HASAN'

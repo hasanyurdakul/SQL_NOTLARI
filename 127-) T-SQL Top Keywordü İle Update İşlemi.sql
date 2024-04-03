@@ -1,0 +1,5 @@
+﻿--T-SQL Top Keywordü İle Update İşlemi
+
+SELECT * FROM VERILER
+
+UPDATE TOP(5) VERILER SET DEGER = DEGER - 5
