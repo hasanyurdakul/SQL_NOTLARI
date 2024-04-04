@@ -1,11 +1,14 @@
 ![ ](https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png )
 
 
-### [SQL Server ve T-SQL Eğitimleri](https://www.youtube.com/playlist?list=PLQVXoXFVVtp2RjHt5teaBOLUcKbq2Ilbo) - Gencay Yıldız Ders Notları
+# [SQL Server ve T-SQL Eğitimleri](https://www.youtube.com/playlist?list=PLQVXoXFVVtp2RjHt5teaBOLUcKbq2Ilbo) - Gencay Yıldız Ders Notları
+
+#### Notlar, videolardaki anlatıma en yakın şekilde alınmaya çalışılmıştır. Ancak çeşitli derslerde yorumlar, tablo isimleri vb. değişikliklik gösterebilir.
 
 
 
 
+### Index
 * 17-) T-SQL Group By İşleminde Where Şartı Yazma.sql
 * 18-) T-SQL Having Komutu.sql
 * 19-) T-SQL Tabloları Yan Yana Birleştirme.sql
@@ -130,4 +133,14 @@
 * 138-) SQL Server 2016 Dynamic Data Masking Özelliğini Kullanıcıya Özel Pasifleştirme.sql
 * 139-) SQL Server 2016 Temporal Tables Giriş.sql
 * 140-) SQL Server 2016 Temporal Tables Çalışma Mantığı.sql
+* 141-) SQL Server 2016 Temporal Tables Özelliğini Kullanırken Nelere Dikkat Etmeliyiz.sql
+* 142-) SQL Server Pratikte Temporal Table Çalışma Mantığı.sql
+* 143-) SQL Server 2016 Temporal Tables Oluşturma.sql
+* 144-) SQL Server 2016 Var Olan Tabloyu Temporal Tables Olarak Ayarlama.sql
+* 145-) SQL Server 2016 Parametrik Olarak Temporal Tabloyu Sorgulama.sql
+* 146-) SQL Server 2016 Veritabanındaki Temporal Tabloları Listelemek.sql
+* 147-) SQL Server 2016 Temporal Tables'i Pasifize Etme.sql
+* 148-) SQL Server 2016 Row Level Security Özelliği Giriş.sql
+* 149-) SQL Server 2016 Row Level Security Özelliğinin Kullanımı.sql
+
 
